@@ -1,0 +1,57 @@
+
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  /*font-family sets the font type*/
+    text-align: center; /*text-align aligns everything*/
+    font-size: 18px;    /*font-size changes the font size of all the text in the html file*/
+    background-image: url(Background.png);
+    background-size: cover;
+}
+
+h1{
+    border: 10px, outset;
+    border-radius: 5px;
+    background-color: #ccc;
+    padding: 15px;
+}
+
+.InnerBorder{
+
+    background-color: rgba(127,255,212, 0.6);
+    align-items: center ;
+    border: 1px solid;
+    padding: 40px;
+    border-radius: 12px;
+    display: inline;
+}
+
+.CalculatorBorder{
+    width: auto;
+    border: 1px solid #ccc;
+    margin:auto;                                 
+    padding: 35px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.ResultArea{
+    background-color: #ccc;
+    width: 350px;
+    margin:auto;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 40px;
+}
+
+.Buttons{
+    padding: 10px;
+}
+
+.Buttons button {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    border-radius: 50px;
+}
